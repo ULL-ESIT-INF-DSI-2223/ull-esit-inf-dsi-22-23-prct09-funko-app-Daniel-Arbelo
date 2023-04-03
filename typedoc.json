@@ -1,21 +1,6 @@
 {
     "entryPoints": [
-        "./src/ejercicio-3/Artista.ts",
-        "./src/ejercicio-3/BibliotecaMusical.ts",
-        "./src/ejercicio-3/Cancion.ts",
-        "./src/ejercicio-3/Disco.ts",
-        "./src/ejercicio-3/Single.ts",
-        "./src/ejercicio-3/Discografia.ts",
-        "./src/ejercicio-2/Lista.ts",
-        "./src/ejercicio-1/BasicStreamableCollection.ts",
-        "./src/ejercicio-1/ColeccionDocumentales.ts",
-        "./src/ejercicio-1/ColeccionPeliculas.ts",
-        "./src/ejercicio-1/ColeccionSeries.ts",
-        "./src/ejercicio-1/Documental.ts",
-        "./src/ejercicio-1/Pelicula.ts",
-        "./src/ejercicio-1/Serie.ts",
-        "./src/ejercicio-1/Streamable.ts",
-        "./src/ejercicio-1/Titulo.ts",
+        "./src/p9/FunkoPop.ts"
 
     ],
     "out":"./docs"

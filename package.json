@@ -1,21 +1,17 @@
 {
-  "name": "p6",
+  "name": "p9",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/p9/index.js\"",
     "test": "mocha",
     "doc": "typedoc",
-    "coverage": "nyc npm test && nyc report --reporter=lcov",
-    "ej1Modificacion": "tsc-watch --onSuccess \"node dist/Modificacion1.js\"",
-    "ej2Modificacion": "tsc-watch --onSuccess \"node dist/Modificacion2.js\"",
-    "ejer1": "tsc-watch --onSuccess \"node dist/ejercicio-1/index.js\"",
-    "ejer2": "tsc-watch --onSuccess \"node dist/ejercicio-2/Lista.js\"",
-    "mp7": "tsc-watch --onSuccess \"node dist/modificacionP7/PrimeNumber.js\""
+    "coverage": "c8 npm test && nyc report --reporter=lcov"
   },
   "repository": {
     "type": "git",
@@ -31,6 +27,8 @@
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.11",
+    "@types/yargs": "^17.0.24",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "chai": "^4.3.7",
@@ -43,5 +41,10 @@
     "tsc-watch": "^6.0.0",
     "typedoc": "^0.23.25",
     "typescript": "^4.9.2"
+  },
+  "dependencies": {
+    "c8": "^7.13.0",
+    "chalk": "^5.2.0",
+    "yargs": "^17.7.1"
   }
 }
